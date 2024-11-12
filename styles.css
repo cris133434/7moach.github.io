@@ -1,0 +1,201 @@
+/* Fuentes globales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de Navegación */
+header {
+    background: linear-gradient(135deg, #0062E6 0%, #33AEFF 100%);
+    padding: 15px 0;
+}
+
+/* Sección de Bienvenida */
+#sobre-nosotros {
+    height: 70vh;
+    background: url('https://example.com/your-background-image.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-ser
+    #sobre-nosotros {
+        background-color: #f5f9ff;
+        padding: 60px 0;
+    }
+    
+    #sobre-nosotros h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+    
+    #sobre-nosotros p {
+        font-size: 18px;
+        color: #555;
+        line-height: 1.6;
+    }
+    
+    #sobre-nosotros .row p {
+        color: #333;
+    }
+    
+    #sobre-nosotros .col-md-6 {
+        margin-bottom: 30px;
+    }
+    
+    #sobre-nosotros .lead {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 40px;
+    }
+    #informacion {
+        background-color: #ffffff;
+        padding: 60px 0;
+    }
+    
+    #informacion h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+    
+    #informacion p {
+        font-size: 18px;
+        color: #555;
+    }
+    
+    #informacion .col-md-4 {
+        margin-bottom: 30px;
+    }
+    
+    #informacion h4 {
+        font-size: 22px;
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+    
+    #informacion .lead {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 40px;
+    }
+    #aportes {
+        background-color: #f5f9ff;
+        padding: 60px 0;
+    }
+    
+    #aportes h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+    
+    #aportes p {
+        font-size: 18px;
+        color: #555;
+    }
+    
+    #aportes .btn-group .btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        margin: 0 8px;
+        border-radius: 30px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #aportes .btn-group .btn:hover {
+        transform: scale(1.1);
+        background-color: #0062E6;
+        color: white;
+    }
+    
+    #selectedAmount {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #007bff;
+    }
+    
+    #paypal-button-container {
+        max-width: 400px;
+        margin: 20px auto;
+    }
+    
+    /* Estilo del botón que abre el chatbot */
+#openChatBot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* Estilos para la ventana del chatbot */
+.chatbot-modal {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 1001;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Encabezado del chatbot */
+.chatbot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Cuerpo del chatbot */
+.chatbot-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px);
+}
+
+#chatMessages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#userMessage {
+    width: calc(100% - 70px);
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
